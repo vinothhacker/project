@@ -18,8 +18,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the source code from your Git repository
-                checkout scm
+                git branch: 'master', url: 'https://github.com/vinothhacker/project.git'
             }
         }
 
