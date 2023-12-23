@@ -9,8 +9,8 @@ pipeline {
     environment {
         // Customize environment variables if needed
         COMPOSER_HOME = "${env.WORKSPACE}/.composer"
-        AWS_ACCESS_KEY_ID     = credentials('AKIA4AKDZ5BLAWMOX5HJ')
-        AWS_SECRET_ACCESS_KEY = credentials('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')
+        AWS_ACCESS_KEY_ID     = credentials('AKIA4AKDZ5BLGGALZ4OU')
+        AWS_SECRET_ACCESS_KEY = credentials('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')
         AWS_DEFAULT_REGION    = 'ap-south-1'
         ECR_REPO_URL          = 'public.ecr.aws/e8e9p4c4/aws_ecs_docker'
     }
