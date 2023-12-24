@@ -6,7 +6,7 @@ pipeline {
         DOCKER_HUB_CREDENTIALS_ID = 'dfc9f433-4802-4818-bead-1eff100ed7b2'
         DOCKER_IMAGE_TAG = 'first-image'
         DOCKER_USERNAME = 'vinoth3108'
-        DOCKER_PASSWORD = 'Vinoth@52'
+        DOCKER_PASSWORD = '12345678'
     }
 
     stages {
